@@ -1,15 +1,26 @@
 body {
-	background-color: #FFFFFF; /*placeholder*/
+	background-color: #FFEEBB;
+	font-family: "Verdana", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h2, #section-title {
+	background-color: #FF8888;
+	border-left: 8px solid red;
 }
 
 #content {
-	max-width: 800px;
+	max-width: 500px;
 	margin: auto;
 	text-align: center;
 }
 
+
 p {
-	font-size: 18px;
+	text-align: justify;
 }
 
 #section-bio {
@@ -17,7 +28,7 @@ p {
 }
 
 #bio-table {
-	width: 75%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -37,6 +48,6 @@ p {
 }
 
 #bio-table .bio-table-contents {
-	width: 62%;
+	width: 47.5%;
 	text-align: left;
 }
